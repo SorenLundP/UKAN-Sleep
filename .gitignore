@@ -36,10 +36,17 @@ venv/
 *.pkl
 # *.pth
 
+
+# Ignore all .txt files
+*.txt
+
+# But keep requirements.txt
+!requirements.txt
+
+
 # Specific files to exclude
 slurm-*.out
-training_log.txt
-training_log_normal_usleep.txt
+
 
 .bash_history
 .bashrc
@@ -49,5 +56,4 @@ training_log_normal_usleep.txt
 .python_history
 .viminfo
 .wget-hsts
-*.txt
 *.png

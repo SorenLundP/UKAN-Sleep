@@ -1,0 +1,13 @@
+# Core dependencies for UKAN-Sleep thesis project
+# Adjust versions as needed for your environment
+
+torch>=1.10
+pytorch-lightning>=1.5
+numpy
+scikit-learn
+tqdm
+h5py
+# Add any custom or local modules as needed, e.g.,
+# csdp_pipeline
+# usleep
+# USleep_KAN_Gram
