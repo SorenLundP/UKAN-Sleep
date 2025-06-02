@@ -1,0 +1,53 @@
+# System files
+.DS_Store
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.venv/
+venv/
+
+# Log files (but keep important logs)
+*.log
+*.out
+
+# Temporary files
+*.tmp
+
+# Data files (optional: exclude if they're large or regenerated)
+*.pkl
+# *.pth
+
+# Specific files to exclude
+slurm-*.out
+training_log.txt
+training_log_normal_usleep.txt
+
+.bash_history
+.bashrc
+.lesshst
+.motd-day-counter
+.profile
+.python_history
+.viminfo
+.wget-hsts
+*.txt
+*.png
